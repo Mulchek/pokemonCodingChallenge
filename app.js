@@ -46,6 +46,6 @@ battleReport.commonBattles.forEach(commonBattle => {
 
 const totalScore = firstPokemonScore + secondPokemonScore
 
-console.log(`Likelyhood of ${battleReport.firstPokemon.Name}(${firstPokemonId}) to win: `, firstPokemonScore / totalScore)
-console.log(`Likelyhood of ${battleReport.secondPokemon.Name}(${secondPokemonId}) to win: `, secondPokemonScore / totalScore)
+console.log(`Likelihood of ${battleReport.firstPokemon.Name}(${firstPokemonId}) to win: `, firstPokemonScore / totalScore)
+console.log(`Likelihood of ${battleReport.secondPokemon.Name}(${secondPokemonId}) to win: `, secondPokemonScore / totalScore)
 
